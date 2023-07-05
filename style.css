@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+}
+.container {
+  max-width: 350px;
+  margin: 0 auto;
+}
+.wrapper {
+  margin: 2rem 1rem;
+  padding: 20px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.75);
+}
+.img1 {
+  width: 100%;
+  display: block;
+}
+.img {
+  overflow: hidden;
+  border-radius: 12px;
+  position: relative;
+}
+.img3 {
+  position: absolute;
+  width: 50px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.img2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 255, 247, 0.5);
+  display: none;
+}
+.img:hover .img2 {
+  display: block;
+  cursor: pointer;
+}
+.box-text h2 {
+  color: white;
+  margin-top: 10px;
+}
+.box-text h2:hover {
+  color: rgb(0, 255, 247);
+  cursor: pointer;
+}
+.box-text p {
+  color: hsl(215, 51%, 70%);
+  margin-top: 10px;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0px;
+  padding: 5%;
+  border-bottom: 1px solid rgb(139, 172, 218, 0.7);
+}
+
+.price .cont1 {
+  color: rgb(0, 255, 247);
+  align-items: center;
+  display: flex;
+}
+.price .cont2 {
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  align-items: center;
+}
+
+.prof img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.prof h6 {
+  color: hsl(215, 51%, 70%);
+  padding-left: 5%;
+}
+.prof span {
+  color: white;
+}
+.prof span:hover {
+  color: rgb(0, 255, 247);
+  cursor: pointer;
+}
+.prof {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 18px;
+}
